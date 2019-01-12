@@ -1,6 +1,4 @@
 
-<!DOCTYPE html>
-<html>
 <head>
 	<title>Social Network</title>
 	<link rel="stylesheet" href="styles/style.css" media="all">
