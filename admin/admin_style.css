@@ -1,0 +1,112 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: pink;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	/*height: 600px;*/
+	background: white;
+}
+
+#head {
+	margin: auto;
+	width: 1000px;
+	border-bottom: 4px solid brown;
+}
+
+#head a{
+	text-decoration: none;
+}
+
+#content {
+	float: right;
+	width: 800px;
+	height: 600px;
+	background:white;
+}
+
+#sidebar {
+	float: left;
+	width: 200px;
+	height: 600px;
+	background: gray;
+}
+
+#menu {
+	line-height: 30px;
+	padding: 0;
+}
+
+#menu li{
+	list-style: none;
+	display: block;
+	margin-left: 20px;
+	padding: 6px;
+}
+
+#menu a{
+	color: white;
+	font-size: 22px;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+#menu a:hover{
+	color: orange;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+#sidebar h2{
+	text-decoration: underline;
+	margin-left: 5px;
+	color: orange;
+}
+
+#foot {
+	width: 1000px;
+	height: 50px;
+	background: black;
+	clear: both;
+}
+
+#ff input{
+	margin-bottom: 5px;
+}
+
+#ff select{
+	margin-bottom: 5px;
+}
+
+#f input {
+	padding: 7px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+}
+
+#f textarea {
+	padding: 8px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;
+}
+
+#f select {
+	padding: 8px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-weight: bolder;	
+}
+
+#f select:hover, input:hover, textarea:hover {
+	background-color: #FFF8DC;
+}
+
+#f h2 {
+	color: gray;
+	font-family: Sansational;   
+}
