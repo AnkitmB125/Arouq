@@ -7,5 +7,3 @@
 	</div>
 			
 </body>
-
-</html>
