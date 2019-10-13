@@ -27,10 +27,12 @@ else {
 						<li><a href="members.php">Members</a></li>
 						<strong>Topics: </strong>
 						<?php
+						//fetching the topics
 						$get_topics = "SELECT * FROM topics";
 						$run_topics = mysqli_query($con, $get_topics);
 						while($row=mysqli_fetch_array($run_topics))
 						{
+							//fetching the id and title of a topic
 							$topic_id = $row['topic_id'];
 							$topic_title = $row['topic_title'];
 							echo "<li><a href='topics.php?topic=$topic_id'>$topic_title</a></li>";
